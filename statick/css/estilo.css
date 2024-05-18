@@ -102,6 +102,9 @@ body{
     background-color:rgb(203, 136, 136);
     width: 50%;
 }
+.lobyitem1{
+    border-radius: 2vw;
+}
 .footertext{
     text-align: center;
     font-size: 1.4vw;
