@@ -1,52 +1,67 @@
+
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- title es el titulo de la pagina -->
-        <title>La Haburgueseria</title>
-        <!-- link cambia el icono -->
-        <link rel="icon" href="imagenes/4053436-fast-food-gastronomy-hamburguer-kitchen-restaurant_113462.ico">
-        <link rel="stylesheet" href="statick/css/estilo.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingreso</title>
+    <link rel="stylesheet" href="statick/css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+    
 <body>
-    <header>
-    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="padregrid">
+        
+        <div class="itemheader"><nav class="navbar navbar-expand-sm bg-light">
 
-        <div class="container-fluid">
-        
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ingreso.html">Ingresar</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Contacto.html">Contactanos</a>
-            </li>
-          </ul>
-        </div>
-      
-         </nav>
-        </header>
-            <div class="primertitulo">
-            <h1>Bienvenidos a la Hamburgueseria</h1>
+            <div class="container-fluid">
+              <!-- hay que acomodar links -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ingreso.html">Ingresar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contactanos</a>
+                </li>
+              </ul>
             </div>
-        
-            <div class="gridcontenedorloby">
-              <div class="containerindex"><p class="textindex">En este video conocerás como hacemos nuestras hamburguesas </p>
-              <iframe width="550" height="380" src="https://www.youtube.com/embed/eEXxj7gY8aU" title="Como preparar la mejor Hamburguesa del mundo - Rapido y Delicioso" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            
-              <div class="containerindex"><p class="textindex" >Encuentranos!</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.825527181023!2d-64.19540389092369!3d-31.418932774153173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a280d07598c1%3A0xb2a683da0f4e4443!2sBlvd.%20San%20Juan%20500%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1714176699941!5m2!1ses-419!2sar" width="550" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
+            </nav>
             </div>
+    <div class="contenidogrid">
+    <div class="primertitulo">
+    </div><br>
+    <div class="segundotitulo">
+    <div class="registro">
+    <h3>Ingresa</h3>
+    <form action="mostrar_datos.html" target="_blank" method="get">
+    <p>
+        <label for="nom">Nombre: </label> 
+        <input type="text" name="Nombre" id="nom" size="30" placeholder="Ingrese su nombre.." required>
+    </p><br>
+    <p>
+        <label for="email">E-mail: </label>
+        <input type="email" name="E-mail" id="email" placeholder="Correo electrónico.." required>
+    </p><br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+    </form>
+    </div>
+    <br>
+    </div>
+    <div class="gridfooter">
+        <p class="footertext"><b>Si aún no te registraste</b> hace click <a href="formregistro.html">Acá</a></p>
+    </div>
+    <div class="gridfooter">
+        <p class="footertext"> Para seguir con tu pedido hace click <a href="pedido.html">Acá</a></p>
+    </div>
+
+</div>
 </body>
 </html>
-
