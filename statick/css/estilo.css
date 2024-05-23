@@ -77,12 +77,60 @@ body{
     
 }
 .gridcontenedorloby{
-  grid-template-columns: auto auto auto;
+    display: grid;
+  grid-template-columns: 33% 33% 33%;
   padding: 10px;
-  column-gap: 50px;
-  margin-left: 25px;
+  column-gap: 150px;
+  margin-left: 150px;
   border-radius: 5vw;
 
+}
+.lobyitem1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.videoloby{
+    border-radius: 3vw;
+}
+.lobyitem2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.mapaloby{
+    border-radius: 5vw;
+}
+.lobyitem3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.lobyregistro{
+    border-style: groove;
+    background-color: beige;
+    text-align: center;
+    border-radius: 3vw;
+    padding: 5px;
+}
+.lobysorteo{
+    background-color: hotpink;
+}
+.lobyitem4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+}
+.portadamenu{
+    width: 450px;
+    height: 300px;
+    border-style: groove;
+    border-radius: 5vw;
 }
 .container-fluid{
     background-color: rgb(157, 91, 219);
@@ -145,6 +193,6 @@ img{
 }
 .textindex{
     background-color: aliceblue;
-    width: 700px;
+    width: 450px;
     text-align: center;
 }
