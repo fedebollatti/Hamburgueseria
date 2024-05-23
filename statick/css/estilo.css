@@ -1,16 +1,5 @@
-@media screen (min-width: 600px) {
-    body{
-        background-image: url("burger.jpg");
-        background-size: cover;
-    }
-}
-@media screen (min-width: 992px){
-    body{
-        background-image: url("burger.jpg");
-        background-size: cover;
-    }
-}
-h1{
+
+  h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
@@ -85,15 +74,15 @@ body{
     
 }
 .gridcontenedorloby{
-    display: inline-grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
   column-gap: 50px;
-  margin-left: 250px;
+  margin-left: 25px;
   border-radius: 5vw;
+
 }
 .container-fluid{
-    background-color: blueviolet;
+    background-color: rgb(157, 91, 219);
     border-radius: 1vw;
     padding: 5px;
     
@@ -136,4 +125,23 @@ label{
 }
 .checkpago{
     margin-left: 15px;
+}
+
+img{
+    width: 300px;
+    height: 200px;  
+    align-self: center;  
+    border-radius: 15%;
+    
+}
+.containerindex{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: large;
+    margin: auto;
+    margin-top: 50px;
+}
+.textindex{
+    background-color: aliceblue;
+    width: 700px;
+    text-align: center;
 }
