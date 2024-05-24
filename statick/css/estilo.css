@@ -196,3 +196,10 @@ img{
     width: 450px;
     text-align: center;
 }
+a:hover{
+    color: black;
+    background-color: rgb(158, 87, 199);
+}
+a:link{
+    color: blue;
+}
