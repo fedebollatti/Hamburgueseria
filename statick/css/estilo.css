@@ -134,7 +134,7 @@ body{
 }
 .container-fluid{
     background-color: rgb(157, 91, 219);
-    border-radius: 1vw;
+    position: fixed;
     padding: 5px;
     
 }
