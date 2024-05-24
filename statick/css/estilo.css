@@ -159,7 +159,7 @@ body{
 }
 .container-fluid{
     background-color: rgb(157, 91, 219);
-    border-radius: 1vw;
+    position: fixed;
     padding: 5px;
     
 }
@@ -220,4 +220,11 @@ img{
     background-color: aliceblue;
     width: 450px;
     text-align: center;
+}
+a:hover{
+    color: black;
+    background-color: rgb(158, 87, 199);
+}
+a:link{
+    color: blue;
 }
