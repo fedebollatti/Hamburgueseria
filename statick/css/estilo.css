@@ -174,13 +174,6 @@ label{
     margin-left: 15px;
 }
 
-img{
-    width: 300px;
-    height: 200px;  
-    align-self: center;  
-    border-radius: 15%;
-    
-}
 .containerindex{
     font-family: Arial, Helvetica, sans-serif ;
     font-size: large;
@@ -199,6 +192,66 @@ a:hover{
 a:link{
     color: blue;
 }
+
+.contenedor3{
+    width: 80vw;
+    height: 100%;
+    margin-left:10vw;    
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-style: solid;
+    border-color: rgb(177, 60, 60);
+    background-image: url("overlay1.jpeg");
+    background-size: cover;
+    
+}
+
+.contb{
+    width: 70vw;
+    height: 50vh;
+    margin-top: 3vh;   
+    margin-left: 5vw;   
+    margin-bottom: 3vh;
+    display: inline-flex;    
+    border-style:solid;
+    border-color: black;
+    border-radius: 2vw;   
+    background-image: url("dhfondo.jpg");
+    background-size: cover;    
+}
+
+.bannermenu{
+    position: sticky;
+    width: 80vw;
+    height: 40vh;    
+    margin-left: 10vw;   
+    margin-top: 3vh;   
+    border-style:solid;
+    border-color: black;   
+    background-image: url("bannermenu.jpg");
+    background-size: cover;    
+}
+
+img{
+    width: 25em;
+    height: 20em;  
+    margin: 1em;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: black;    
+}
+
+.descripbh{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;       
+    display: inline;
+    margin-top: 5vh;
+    font-size: 2em;
+}
+
+
 @media (max-width: 768px){
     .gridcontenedorloby{
         display: flex;
