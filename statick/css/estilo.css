@@ -1,32 +1,3 @@
-
-@media screen and (max-width: 800px){
-.gridcontenedorloby{
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    margin-left: 3%;
-   
-}
-.videoloby{
-    width: 100%;
-}
-.mapaloby{
-    width: 100%;
-}
-.portadamenu{
-    max-width: 100%;
-}
-.container-fluid{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-}
-.textindex{
-    text-align: left;
-    max-width: 100%;
-}
-
-}
   h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -228,3 +199,31 @@ a:hover{
 a:link{
     color: blue;
 }
+@media (max-width: 768px){
+    .gridcontenedorloby{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: 3%;
+       
+    }
+    .videoloby{
+        width: 100%;
+    }
+    .mapaloby{
+        width: 100%;
+    }
+    .portadamenu{
+        max-width: 100%;
+    }
+    .container-fluid{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .textindex{
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    }
