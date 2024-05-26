@@ -264,7 +264,10 @@ img{
     margin-top: 5vh;
     font-size: 2em;
 }
-
+.navbar {
+    top: 0%;
+    position: fixed;
+}
 
 @media (max-width: 768px){
     /*seccion loby*/
