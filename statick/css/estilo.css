@@ -15,6 +15,7 @@ h2{
     background-color: thistle;
     display: inline;
 }
+
 .segundotitulo{
     text-align: center;
     
@@ -35,10 +36,43 @@ p{
     color: rgb(56, 13, 3);
 }
 header{
+    width: 100%;
     background-color: blueviolet;
-    color: bisque;
-    border-radius: 20vw;
     
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+header label:hover {
+    cursor: pointer;
+    background:rgb(205, 159, 248, 0.3)
+}
+.iconoNav{
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 3%;
+}
+#botonNav{
+    display: none;
+}
+.barranav ul{
+    margin: 0%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.barranav li a{
+    display: block;
+    padding: 15px 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.barranav li:hover{
+    background: rgb(205, 159, 248, 0.3)
 }
 
 .registro{
@@ -76,6 +110,7 @@ header{
 body{
     background-image: url("burger.jpg");
     background-size: cover;
+    margin: 0%;
 }
 .contenedor{
     width: 32em;
@@ -270,6 +305,26 @@ img{
 }
 
 @media (max-width: 768px){
+    /*navbar*/
+    header label{
+        display: block;
+    }
+    .barranav{
+        position: absolute;
+        background: rgb(97, 30, 160);
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .barranav ul{
+        flex-direction: column;
+    }
+    .barranav li{
+        border-top: 1px solid #fff;
+    }
+    #botonNav:checked ~ .barranav{
+        margin: 0;
+    }
     /*seccion loby*/
     .gridcontenedorloby{
         display: flex;
@@ -300,11 +355,12 @@ img{
     /*seccion menu*/
     .bannermenu{
         width: 95%;
-        margin-top: 25%;
+        margin-top: 35%;
         margin-left: 1%;
     }
     .contenedor3{
         width: 100%;
+        margin-left: 1%;
     }
     /*seccion contacto*/
     .Contactotitulo{
@@ -319,11 +375,17 @@ img{
     /*seccion formregistro*/
     .contenidogrid{
         width: 100%;
-        margin-top: 15%;
+        margin-top: 10%;
         margin-left: 3%;
     }
+    .primertitulo{
+        width: 80%;
+    }
+    .segundotitulo{
+        width: 80%;
+    }
     .registro{
-        width: 95%;
+        width: 80%;
         margin-left: 0%;
     }
     .footertext{
@@ -332,15 +394,17 @@ img{
     /*seccion ingreso*/
     .ingresogrid{
         margin-top: 15%;
+        margin-left: 2%;
         
     }
     .divingreso{
-        width: 80%;
+        width: 90%;
         margin-left: 3%;
     }
     /**/
     .metpago{
-        margin-top: 20%;
-        width: 80%;
+        margin-top: 15%;
+        width: 70%;
+        margin-left: 2%;
     }
     }
