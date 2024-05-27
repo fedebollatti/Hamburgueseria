@@ -176,6 +176,8 @@ body{
     height: 300px;
     border-style: groove;
     border-radius: 5vw;
+    margin-left: -3%;
+    margin-top: 0%;
 }
 .container-fluid{
     background-color: rgb(157, 91, 219);
@@ -386,7 +388,7 @@ img{
     }
     .descripbh{
         font-size: 95%;
-        margin-left: -122%;
+        margin-left: -120%;
         margin-top: 115%;
         color: rgb(0, 0, 0);
         text-align: left;
