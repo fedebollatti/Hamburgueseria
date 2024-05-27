@@ -354,13 +354,45 @@ img{
     }
     /*seccion menu*/
     .bannermenu{
-        width: 95%;
+        width: 100%;
         margin-top: 35%;
-        margin-left: 1%;
+        margin-left: -31%;
+        
     }
     .contenedor3{
         width: 100%;
-        margin-left: 1%;
+        margin-left: -10%;
+        
+    }
+    .baconbad{
+        transform: scale(0.4, 0.4);
+        margin-left: -40%;
+        margin-top: 0%;
+    }
+    .the1000{
+        transform: scale(0.4, 0.4);
+        margin-left: -40%;
+        margin-top: 0%;
+    }
+    .bigvagon{
+        transform: scale(0.4, 0.4);
+        margin-left: -40%;
+        margin-top: 0%;
+    }
+    .belgranoburg{
+        transform: scale(0.4, 0.4);
+        margin-left: -40%;
+        margin-top: 0%;
+    }
+    .descripbh{
+        font-size: 95%;
+        margin-left: -122%;
+        margin-top: 115%;
+        color: rgb(0, 0, 0);
+        text-align: left;
+        background-color: olive;
+        
+        
     }
     /*seccion contacto*/
     .Contactotitulo{
