@@ -33,30 +33,31 @@
     </div><br>
     <div class="registro">
     <h3>Registrate!</h3>
-    <form action="mostrar_datos.html" target="_blank" method="get">
-    <p>
-        <label for="nom">Nombre: </label> 
-        <input type="text" name="Nombre" id="nom" size="30" placeholder="Ingrese su nombre.." required>
-    </p><br>
-    <p>
-        <label for="ap">Apellido: </label>
-        <input type="text" name="Apellido" id="ap" size="30" placeholder="Ingrese su apellido.." required>
-    </p><br>
-    <p>
-        <label for="tel">Teléfono: </label>
-        <input type="number" name="Telefono" id="tel"  placeholder="Número telefónico.." required>
-    </p><br>
-    <p>
-        <label for="direc">Dirección: </label>
-        <input type="text" name="Direccion" id="direc" size="30" placeholder="Calle y numeración.." required>
-    </p><br>
-    <p>
-        <label for="email">E-mail: </label>
-        <input type="email" name="E-mail" id="email" placeholder="Correo electrónico.." required>
-    </p><br>
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Borrar">
-    </form>
+         <form id="formulario" action="mostrar_datos.html"  method="post">
+          <p>
+              <label for="nom">Nombre: </label> 
+              <input type="text" name="Nombre" id="nombre" size="30" placeholder="Ingrese su nombre.."> 
+          </p><br>
+          <p>
+              <label for="ap">Apellido: </label>
+              <input type="text" name="Apellido" id="apellido" size="30" placeholder="Ingrese su apellido..">
+          </p><br>
+          <p>
+              <label for="tel">Teléfono: </label>
+              <input type="text" name="Telefono" id="telefono"  placeholder="Número telefónico.." >
+          </p><br>
+          <p>
+              <label for="direc">Dirección: </label>
+              <input type="text" name="Direccion" id="direccion" size="30" placeholder="Calle y numeración..">
+          </p><br>
+          <p>
+              <label for="email">E-mail: </label>
+              <input type="text" name="E-mail" id="email" placeholder="Correo electrónico.." >
+          </p><br>
+          <button type="submit">Enviar</button>
+          <input type="reset" value="Borrar">
+        </form>
+        <script src="statick/js/validar.js"></script>
     </div>
     <br>
     </div>
