@@ -159,10 +159,12 @@ body{
     background-color: beige;
     text-align: center;
     border-radius: 3vw;
-    padding: 5px;
+    padding: 10px;
+    margin-left: 5%;
 }
 .lobysorteo{
     background-color: hotpink;
+    border-radius: 1vw;
 }
 .lobyitem4{
     grid-column-start: 2;
