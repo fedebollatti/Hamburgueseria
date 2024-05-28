@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!validar(nombre)) {
             
-            alert("11Error: No se admiten caracteres especiales , ni nùmeros.");
+            alert("El nombre ingresado no es válido: No debe contener caracteres especiales , ni nùmeros.");
             return;
         }
 
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!validarapellido(apellido)) {
             
-            alert("2Error: No se admiten caracteres especiales , ni nùmeros.");
+            alert("El apellido ingresado no es válido: No debe contener caracteres especiales , ni nùmeros.");
             return;
         }
 
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!validartel(telefono)) {
             
-            alert("Error: Formato incorrecto.");
+            alert("Error: el formato del número ingresado es inválido.");
             return;
         }
 
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!validardir(direccion)) {
             
-            alert("Error: Formato incorrecto.");
+            alert("Error: el formato de la direccion ingresada inválido.");
             return;
         }
 
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!validarEmail(email)) {
             
-            alert("Error: Formato incorrecto");
+            alert("Error: el formato de la direccion de correo ingresada es incorrecto");
             return;
         }
 
