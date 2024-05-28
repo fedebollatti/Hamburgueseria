@@ -370,28 +370,28 @@ img{
     }
     .baconbad{
         transform: scale(0.4, 0.4);
-        margin-left: -40%;
+        margin-left: -25%;
         margin-top: 0%;
     }
     .the1000{
         transform: scale(0.4, 0.4);
-        margin-left: -40%;
+        margin-left: -25%;
         margin-top: 0%;
     }
     .bigvagon{
         transform: scale(0.4, 0.4);
-        margin-left: -40%;
+        margin-left: -25%;
         margin-top: 0%;
     }
     .belgranoburg{
         transform: scale(0.4, 0.4);
-        margin-left: -40%;
+        margin-left: -25%;
         margin-top: 0%;
     }
     .descripbh{
         font-size: 95%;
-        margin-left: -120%;
-        margin-top: 115%;
+        margin-left: -110%;
+        margin-top: 100%;
         color: rgb(0, 0, 0);
         text-align: left;
         background-color: olive;
